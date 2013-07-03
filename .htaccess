@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} !^www.invitationonlyllc.com$
+RewriteRule ^(.*)$ http://www.invitationonlyllc.com [R=301,L]
+
+ErrorDocument 404 /404.html
